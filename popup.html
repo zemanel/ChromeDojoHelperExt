@@ -1,0 +1,22 @@
+<link rel="stylesheet" type="text/css" href="/js/dojo-release-1.6.0-src/dojo/resources/dojo.css"> 
+<link rel="stylesheet" type="text/css" href="/js/dojo-release-1.6.0-src/dijit/themes/claro/claro.css">
+<link rel="stylesheet" type="text/css" href="/js/dojo-release-1.6.0-src/dojox/grid/resources/claroGrid.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+<script src="/js/dojo-release-1.6.0-src/dojo/dojo.js" type="text/javascript" djConfig="parseOnLoad: true"></script>
+<script src="/js/code.js"></script>
+
+<body class="claro">
+  <div dojoType="dijit.layout.ContentPane" id="titleBar"><h1>Search the Dojotoolkit documentation</h1></div>
+  <div dojoType="dijit.layout.ContentPane" id="searchBar">
+      <select dojoType="dijit.form.Select" id="dojoVersion" name="dojoVersion">
+          <option value="1.6" selected>1.6</option>
+          <option value="1.5">1.5</option>
+          <option value="1.4">1.4</option>
+      </select>
+      <input id="classSelectNode">
+  </div>
+  <div dojoType="dijit.layout.ContentPane" id="details">
+    <div id="detailsNode"></div>
+  </div>  
+</body>

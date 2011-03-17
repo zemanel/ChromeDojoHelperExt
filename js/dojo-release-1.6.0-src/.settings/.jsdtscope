@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="nls/sl/|nls/de/|nls/sk/|form/nls/nl/|_editor/nls/sv/|tests/|nls/da/|_editor/nls/sl/|form/nls/hu/|_editor/nls/sk/|form/nls/de/|form/nls/ro/|nls/hu/|form/nls/nb/|form/nls/zh/|tests/tree/robot/|_editor/nls/kk/|layout/|_editor/nls/de/|lib/|_editor/nls/ko/|_editor/nls/th/|nls/sv/|tests/editor/|nls/he/|_editor/nls/da/|form/nls/es/|_editor/nls/ru/|form/nls/ar/|form/nls/el/|nls/nl/|_editor/nls/ar/|form/nls/it/|_editor/nls/el/|nls/it/|nls/nb/|_editor/nls/es/|nls/ro/|_editor/nls/ro/|resources/|nls/zh-tw/|_editor/nls/zh-tw/|form/nls/pt/|_editor/nls/nl/|nls/es/|nls/ru/|nls/ar/|form/nls/|_editor/nls/ja/|nls/el/|tree/|form/nls/ja/|form/nls/pl/|nls/fi/|form/nls/th/|nls/zh/|form/nls/fr/|tests/form/|form/nls/tr/|_editor/nls/it/|_editor/nls/fr/|_editor/nls/nb/|nls/fr/|form/nls/fi/|form/nls/ca/|_editor/nls/fi/|form/nls/sv/|tests/_data/|themes/claro/|_editor/|tests/tree/|nls/pt-pt/|nls/ja/|nls/pl/|form/nls/zh-tw/|form/nls/kk/|nls/ca/|nls/th/|_base/|_editor/nls/pt/|tests/layout/robot/|_editor/nls/tr/|form/nls/cs/|tests/i18n/|form/nls/ko/|nls/ko/|_editor/nls/hu/|_editor/nls/pl/|_editor/plugins/|nls/tr/|form/nls/da/|tests/_base/|form/nls/sk/|form/nls/sl/|_editor/nls/zh/|_editor/nls/cs/|_editor/nls/ca/|_editor/nls/|form/nls/ru/|tests/layout/|form/nls/pt-pt/|nls/kk/|nls/cs/|form/nls/he/|nls/|_editor/nls/he/|nls/pt/|form/|_editor/nls/pt-pt/|_tree/" kind="src" path="dijit"/>
+	<classpathentry kind="src" path="dijit/_base"/>
+	<classpathentry excluding="nls/sv/|nls/sl/|nls/sk/|nls/kk/|nls/de/|nls/ko/|nls/th/|nls/da/|nls/ru/|nls/ar/|nls/el/|nls/es/|nls/ro/|nls/zh-tw/|nls/nl/|nls/ja/|nls/it/|nls/fr/|nls/nb/|nls/fi/|nls/pt/|nls/tr/|nls/hu/|nls/pl/|plugins/|nls/zh/|nls/cs/|nls/ca/|nls/|nls/he/|nls/pt-pt/" kind="src" path="dijit/_editor"/>
+	<classpathentry excluding="sv/|sl/|sk/|kk/|de/|ko/|th/|da/|ru/|ar/|el/|es/|ro/|zh-tw/|nl/|ja/|it/|fr/|nb/|fi/|pt/|tr/|hu/|pl/|zh/|cs/|ca/|he/|pt-pt/" kind="src" path="dijit/_editor/nls"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/ar"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/ca"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/cs"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/da"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/de"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/el"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/es"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/fi"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/fr"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/he"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/hu"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/it"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/ja"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/kk"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/ko"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/nb"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/nl"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/pl"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/pt"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/pt-pt"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/ro"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/ru"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/sk"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/sl"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/sv"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/th"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/tr"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/zh"/>
+	<classpathentry kind="src" path="dijit/_editor/nls/zh-tw"/>
+	<classpathentry kind="src" path="dijit/_editor/plugins"/>
+	<classpathentry kind="src" path="dijit/_tree"/>
+	<classpathentry excluding="nls/nl/|nls/hu/|nls/de/|nls/ro/|nls/nb/|nls/zh/|nls/es/|nls/ar/|nls/el/|nls/it/|nls/pt/|nls/|nls/ja/|nls/pl/|nls/th/|nls/fr/|nls/tr/|nls/fi/|nls/ca/|nls/sv/|nls/zh-tw/|nls/kk/|nls/cs/|nls/ko/|nls/da/|nls/sk/|nls/sl/|nls/ru/|nls/pt-pt/|nls/he/" kind="src" path="dijit/form"/>
+	<classpathentry excluding="nl/|hu/|de/|ro/|nb/|zh/|es/|ar/|el/|it/|pt/|ja/|pl/|th/|fr/|tr/|fi/|ca/|sv/|zh-tw/|kk/|cs/|ko/|da/|sk/|sl/|ru/|pt-pt/|he/" kind="src" path="dijit/form/nls"/>
+	<classpathentry kind="src" path="dijit/form/nls/ar"/>
+	<classpathentry kind="src" path="dijit/form/nls/ca"/>
+	<classpathentry kind="src" path="dijit/form/nls/cs"/>
+	<classpathentry kind="src" path="dijit/form/nls/da"/>
+	<classpathentry kind="src" path="dijit/form/nls/de"/>
+	<classpathentry kind="src" path="dijit/form/nls/el"/>
+	<classpathentry kind="src" path="dijit/form/nls/es"/>
+	<classpathentry kind="src" path="dijit/form/nls/fi"/>
+	<classpathentry kind="src" path="dijit/form/nls/fr"/>
+	<classpathentry kind="src" path="dijit/form/nls/he"/>
+	<classpathentry kind="src" path="dijit/form/nls/hu"/>
+	<classpathentry kind="src" path="dijit/form/nls/it"/>
+	<classpathentry kind="src" path="dijit/form/nls/ja"/>
+	<classpathentry kind="src" path="dijit/form/nls/kk"/>
+	<classpathentry kind="src" path="dijit/form/nls/ko"/>
+	<classpathentry kind="src" path="dijit/form/nls/nb"/>
+	<classpathentry kind="src" path="dijit/form/nls/nl"/>
+	<classpathentry kind="src" path="dijit/form/nls/pl"/>
+	<classpathentry kind="src" path="dijit/form/nls/pt"/>
+	<classpathentry kind="src" path="dijit/form/nls/pt-pt"/>
+	<classpathentry kind="src" path="dijit/form/nls/ro"/>
+	<classpathentry kind="src" path="dijit/form/nls/ru"/>
+	<classpathentry kind="src" path="dijit/form/nls/sk"/>
+	<classpathentry kind="src" path="dijit/form/nls/sl"/>
+	<classpathentry kind="src" path="dijit/form/nls/sv"/>
+	<classpathentry kind="src" path="dijit/form/nls/th"/>
+	<classpathentry kind="src" path="dijit/form/nls/tr"/>
+	<classpathentry kind="src" path="dijit/form/nls/zh"/>
+	<classpathentry kind="src" path="dijit/form/nls/zh-tw"/>
+	<classpathentry kind="src" path="dijit/layout"/>
+	<classpathentry kind="src" path="dijit/lib"/>
+	<classpathentry excluding="sl/|de/|sk/|da/|hu/|sv/|he/|nl/|it/|nb/|ro/|zh-tw/|es/|ru/|ar/|el/|fi/|zh/|fr/|pt-pt/|ja/|pl/|ca/|th/|ko/|tr/|kk/|cs/|pt/" kind="src" path="dijit/nls"/>
+	<classpathentry kind="src" path="dijit/nls/ar"/>
+	<classpathentry kind="src" path="dijit/nls/ca"/>
+	<classpathentry kind="src" path="dijit/nls/cs"/>
+	<classpathentry kind="src" path="dijit/nls/da"/>
+	<classpathentry kind="src" path="dijit/nls/de"/>
+	<classpathentry kind="src" path="dijit/nls/el"/>
+	<classpathentry kind="src" path="dijit/nls/es"/>
+	<classpathentry kind="src" path="dijit/nls/fi"/>
+	<classpathentry kind="src" path="dijit/nls/fr"/>
+	<classpathentry kind="src" path="dijit/nls/he"/>
+	<classpathentry kind="src" path="dijit/nls/hu"/>
+	<classpathentry kind="src" path="dijit/nls/it"/>
+	<classpathentry kind="src" path="dijit/nls/ja"/>
+	<classpathentry kind="src" path="dijit/nls/kk"/>
+	<classpathentry kind="src" path="dijit/nls/ko"/>
+	<classpathentry kind="src" path="dijit/nls/nb"/>
+	<classpathentry kind="src" path="dijit/nls/nl"/>
+	<classpathentry kind="src" path="dijit/nls/pl"/>
+	<classpathentry kind="src" path="dijit/nls/pt"/>
+	<classpathentry kind="src" path="dijit/nls/pt-pt"/>
+	<classpathentry kind="src" path="dijit/nls/ro"/>
+	<classpathentry kind="src" path="dijit/nls/ru"/>
+	<classpathentry kind="src" path="dijit/nls/sk"/>
+	<classpathentry kind="src" path="dijit/nls/sl"/>
+	<classpathentry kind="src" path="dijit/nls/sv"/>
+	<classpathentry kind="src" path="dijit/nls/th"/>
+	<classpathentry kind="src" path="dijit/nls/tr"/>
+	<classpathentry kind="src" path="dijit/nls/zh"/>
+	<classpathentry kind="src" path="dijit/nls/zh-tw"/>
+	<classpathentry kind="src" path="dijit/resources"/>
+	<classpathentry excluding="tree/robot/|editor/|form/|_data/|tree/|layout/robot/|i18n/|_base/|layout/" kind="src" path="dijit/tests"/>
+	<classpathentry kind="src" path="dijit/tests/_base"/>
+	<classpathentry kind="src" path="dijit/tests/_data"/>
+	<classpathentry kind="src" path="dijit/tests/editor"/>
+	<classpathentry kind="src" path="dijit/tests/form"/>
+	<classpathentry kind="src" path="dijit/tests/i18n"/>
+	<classpathentry excluding="robot/" kind="src" path="dijit/tests/layout"/>
+	<classpathentry kind="src" path="dijit/tests/layout/robot"/>
+	<classpathentry excluding="robot/" kind="src" path="dijit/tests/tree"/>
+	<classpathentry kind="src" path="dijit/tests/tree/robot"/>
+	<classpathentry kind="src" path="dijit/themes/claro"/>
+	<classpathentry kind="src" path="dijit/tree"/>
+	<classpathentry excluding="nls/ja/|nls/nl/|tests/nls/fr/|nls/fr/|cldr/nls/en-gb/|dnd/|cldr/nls/en-ca/|nls/nb/|_base/_loader/|cldr/nls/he/|nls/fi/|store/|resources/|tests/nls/it/|cldr/nls/tr/|tests/nls/yi/|tests/nls/zh-cn/|tests/_base/AMD-build-transform/|cldr/nls/|tests/nls/ja/|nls/zh/|tests/_base/_loader/modules/|date/|tests/date/|cldr/nls/ko/|cldr/nls/pl/|cldr/nls/th/|tests/nls/ru/|tests/data/|tests/sie/|nls/ru/|store/util/|data/|cldr/nls/pt/|nls/zh-tw/|cldr/nls/cs/|nls/es/|nls/el/|cldr/nls/fr-ch/|tests/nls/cs/|nls/ar/|tests/nls/hi/|tests/nls/|cldr/nls/da/|tests/nls/he/|_firebug/|tests/nls/en-us-new_york-brooklyn/|cldr/nls/de/|cldr/nls/zh/|io/|nls/ro/|tests/nls/de/|data/api/|_base/|cldr/nls/hu/|nls/it/|tests/_base/_loader/|nls/hu/|nls/pl/|cldr/nls/nl/|cldr/nls/ja/|tests/nls/pt/|cldr/nls/fr/|nls/sv/|data/util/|cldr/nls/zh-hant/|cldr/nls/nb/|tests/nls/th/|tests/nls/pl/|nls/sk/|nls/he/|nls/sl/|tests/nls/zh-tw/|cldr/nls/zh-hk/|tests/amd/|tests/nls/tr/|cldr/nls/it/|tests/|nls/da/|nls/pt/|cldr/nls/ro/|nls/pt-pt/|tests/nls/el/|nls/de/|cldr/nls/ru/|cldr/nls/ca/|rpc/|tests/io/|cldr/nls/es/|tests/nls/es/|tests/nls/ko/|tests/nls/en-us-texas/|lib/plugins/|cldr/nls/ar/|cldr/nls/en/|cldr/nls/zh-tw/|nls/cs/|tests/nls/ar/|tests/nls/en-au/|cldr/|cldr/nls/el/|tests/_base/|fx/|nls/kk/|cldr/nls/fi/|tests/store/|lib/|cldr/nls/pt-pt/|nls/ko/|tests/nls/fa/|tests/nls/en-us-hawaii/|nls/|cldr/nls/sk/|cldr/nls/sl/|nls/th/|tests/resources/|tests/nls/sw/|nls/ca/|cldr/nls/en-au/|nls/tr/|cldr/nls/sv/" kind="src" path="dojo"/>
+	<classpathentry excluding="_loader/" kind="src" path="dojo/_base"/>
+	<classpathentry kind="src" path="dojo/_base/_loader"/>
+	<classpathentry kind="src" path="dojo/_firebug"/>
+	<classpathentry excluding="nls/en-gb/|nls/en-ca/|nls/he/|nls/tr/|nls/|nls/ko/|nls/pl/|nls/th/|nls/pt/|nls/cs/|nls/fr-ch/|nls/da/|nls/de/|nls/zh/|nls/hu/|nls/nl/|nls/ja/|nls/fr/|nls/zh-hant/|nls/nb/|nls/zh-hk/|nls/it/|nls/ro/|nls/ru/|nls/ca/|nls/es/|nls/ar/|nls/en/|nls/zh-tw/|nls/el/|nls/fi/|nls/pt-pt/|nls/sk/|nls/sl/|nls/en-au/|nls/sv/" kind="src" path="dojo/cldr"/>
+	<classpathentry excluding="en-gb/|en-ca/|he/|tr/|ko/|pl/|th/|pt/|cs/|fr-ch/|da/|de/|zh/|hu/|nl/|ja/|fr/|zh-hant/|nb/|zh-hk/|it/|ro/|ru/|ca/|es/|ar/|en/|zh-tw/|el/|fi/|pt-pt/|sk/|sl/|en-au/|sv/" kind="src" path="dojo/cldr/nls"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/ar"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/ca"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/cs"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/da"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/de"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/el"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/en"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/en-au"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/en-ca"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/en-gb"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/es"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/fi"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/fr"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/fr-ch"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/he"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/hu"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/it"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/ja"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/ko"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/nb"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/nl"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/pl"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/pt"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/pt-pt"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/ro"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/ru"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/sk"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/sl"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/sv"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/th"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/tr"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/zh"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/zh-hant"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/zh-hk"/>
+	<classpathentry kind="src" path="dojo/cldr/nls/zh-tw"/>
+	<classpathentry excluding="api/|util/" kind="src" path="dojo/data"/>
+	<classpathentry kind="src" path="dojo/data/api"/>
+	<classpathentry kind="src" path="dojo/data/util"/>
+	<classpathentry kind="src" path="dojo/date"/>
+	<classpathentry kind="src" path="dojo/dnd"/>
+	<classpathentry kind="src" path="dojo/fx"/>
+	<classpathentry kind="src" path="dojo/io"/>
+	<classpathentry excluding="plugins/" kind="src" path="dojo/lib"/>
+	<classpathentry kind="src" path="dojo/lib/plugins"/>
+	<classpathentry excluding="ja/|nl/|fr/|nb/|fi/|zh/|ru/|zh-tw/|es/|el/|ar/|ro/|it/|hu/|pl/|sv/|sk/|he/|sl/|da/|pt/|pt-pt/|de/|cs/|kk/|ko/|th/|ca/|tr/" kind="src" path="dojo/nls"/>
+	<classpathentry kind="src" path="dojo/nls/ar"/>
+	<classpathentry kind="src" path="dojo/nls/ca"/>
+	<classpathentry kind="src" path="dojo/nls/cs"/>
+	<classpathentry kind="src" path="dojo/nls/da"/>
+	<classpathentry kind="src" path="dojo/nls/de"/>
+	<classpathentry kind="src" path="dojo/nls/el"/>
+	<classpathentry kind="src" path="dojo/nls/es"/>
+	<classpathentry kind="src" path="dojo/nls/fi"/>
+	<classpathentry kind="src" path="dojo/nls/fr"/>
+	<classpathentry kind="src" path="dojo/nls/he"/>
+	<classpathentry kind="src" path="dojo/nls/hu"/>
+	<classpathentry kind="src" path="dojo/nls/it"/>
+	<classpathentry kind="src" path="dojo/nls/ja"/>
+	<classpathentry kind="src" path="dojo/nls/kk"/>
+	<classpathentry kind="src" path="dojo/nls/ko"/>
+	<classpathentry kind="src" path="dojo/nls/nb"/>
+	<classpathentry kind="src" path="dojo/nls/nl"/>
+	<classpathentry kind="src" path="dojo/nls/pl"/>
+	<classpathentry kind="src" path="dojo/nls/pt"/>
+	<classpathentry kind="src" path="dojo/nls/pt-pt"/>
+	<classpathentry kind="src" path="dojo/nls/ro"/>
+	<classpathentry kind="src" path="dojo/nls/ru"/>
+	<classpathentry kind="src" path="dojo/nls/sk"/>
+	<classpathentry kind="src" path="dojo/nls/sl"/>
+	<classpathentry kind="src" path="dojo/nls/sv"/>
+	<classpathentry kind="src" path="dojo/nls/th"/>
+	<classpathentry kind="src" path="dojo/nls/tr"/>
+	<classpathentry kind="src" path="dojo/nls/zh"/>
+	<classpathentry kind="src" path="dojo/nls/zh-tw"/>
+	<classpathentry kind="src" path="dojo/resources"/>
+	<classpathentry kind="src" path="dojo/rpc"/>
+	<classpathentry excluding="util/" kind="src" path="dojo/store"/>
+	<classpathentry kind="src" path="dojo/store/util"/>
+	<classpathentry excluding="nls/fr/|nls/it/|nls/yi/|nls/zh-cn/|_base/AMD-build-transform/|nls/ja/|_base/_loader/modules/|date/|nls/ru/|data/|sie/|nls/cs/|nls/hi/|nls/|nls/he/|nls/en-us-new_york-brooklyn/|nls/de/|_base/_loader/|nls/pt/|nls/th/|nls/pl/|nls/zh-tw/|amd/|nls/tr/|nls/el/|io/|nls/es/|nls/ko/|nls/en-us-texas/|nls/ar/|nls/en-au/|_base/|store/|nls/fa/|nls/en-us-hawaii/|resources/|nls/sw/" kind="src" path="dojo/tests"/>
+	<classpathentry excluding="AMD-build-transform/|_loader/modules/|_loader/" kind="src" path="dojo/tests/_base"/>
+	<classpathentry excluding="modules/" kind="src" path="dojo/tests/_base/_loader"/>
+	<classpathentry kind="src" path="dojo/tests/_base/_loader/modules"/>
+	<classpathentry kind="src" path="dojo/tests/_base/AMD-build-transform"/>
+	<classpathentry kind="src" path="dojo/tests/amd"/>
+	<classpathentry kind="src" path="dojo/tests/data"/>
+	<classpathentry kind="src" path="dojo/tests/date"/>
+	<classpathentry kind="src" path="dojo/tests/io"/>
+	<classpathentry excluding="fr/|it/|yi/|zh-cn/|ja/|ru/|cs/|hi/|he/|en-us-new_york-brooklyn/|de/|pt/|th/|pl/|zh-tw/|tr/|el/|es/|ko/|en-us-texas/|ar/|en-au/|fa/|en-us-hawaii/|sw/" kind="src" path="dojo/tests/nls"/>
+	<classpathentry kind="src" path="dojo/tests/nls/ar"/>
+	<classpathentry kind="src" path="dojo/tests/nls/cs"/>
+	<classpathentry kind="src" path="dojo/tests/nls/de"/>
+	<classpathentry kind="src" path="dojo/tests/nls/el"/>
+	<classpathentry kind="src" path="dojo/tests/nls/en-au"/>
+	<classpathentry kind="src" path="dojo/tests/nls/en-us-hawaii"/>
+	<classpathentry kind="src" path="dojo/tests/nls/en-us-new_york-brooklyn"/>
+	<classpathentry kind="src" path="dojo/tests/nls/en-us-texas"/>
+	<classpathentry kind="src" path="dojo/tests/nls/es"/>
+	<classpathentry kind="src" path="dojo/tests/nls/fa"/>
+	<classpathentry kind="src" path="dojo/tests/nls/fr"/>
+	<classpathentry kind="src" path="dojo/tests/nls/he"/>
+	<classpathentry kind="src" path="dojo/tests/nls/hi"/>
+	<classpathentry kind="src" path="dojo/tests/nls/it"/>
+	<classpathentry kind="src" path="dojo/tests/nls/ja"/>
+	<classpathentry kind="src" path="dojo/tests/nls/ko"/>
+	<classpathentry kind="src" path="dojo/tests/nls/pl"/>
+	<classpathentry kind="src" path="dojo/tests/nls/pt"/>
+	<classpathentry kind="src" path="dojo/tests/nls/ru"/>
+	<classpathentry kind="src" path="dojo/tests/nls/sw"/>
+	<classpathentry kind="src" path="dojo/tests/nls/th"/>
+	<classpathentry kind="src" path="dojo/tests/nls/tr"/>
+	<classpathentry kind="src" path="dojo/tests/nls/yi"/>
+	<classpathentry kind="src" path="dojo/tests/nls/zh-cn"/>
+	<classpathentry kind="src" path="dojo/tests/nls/zh-tw"/>
+	<classpathentry kind="src" path="dojo/tests/resources"/>
+	<classpathentry kind="src" path="dojo/tests/sie"/>
+	<classpathentry kind="src" path="dojo/tests/store"/>
+	<classpathentry excluding="mdnd/tests/unitTests/dropIndicator/|mdnd/tests/unitTests/areaManager/|editor/plugins/nls/el/|geo/charting/widget/|mobile/tests/imageControlsApp/app/assistants/|grid/tests/enhanced/support/|form/nls/nb/|widget/nls/zh-tw/|editor/plugins/nls/ar/|atom/widget/nls/ru/|atom/widget/nls/sk/|atom/widget/nls/es/|grid/tests/robot/|atom/widget/nls/ja/|drawing/tools/|atom/widget/nls/sl/|drawing/plugins/tools/|rpc/tests/|atom/widget/nls/nl/|widget/nls/|drawing/stencil/|drawing/tools/custom/|data/tests/|editor/tests/|atom/widget/nls/it/|mdnd/tests/unitTests/dropMode/|encoding/digests/|cometd/tests/|atom/widget/nls/ro/|editor/plugins/nls/es/|grid/enhanced/nls/hu/|form/nls/kk/|xmpp/|layout/dnd/|grid/tests/support/|color/tests/|lang/|widget/nls/fi/|lang/tests/|widget/nls/nb/|form/nls/ko/|embed/IE/|grid/enhanced/nls/th/|widget/nls/it/|grid/|mdnd/tests/|editor/plugins/nls/pt/|form/uploader/plugins/|io/|charting/plot3d/|charting/axis2d/|form/uploader/|dtl/|widget/nls/el/|form/nls/ro/|wire/ml/|jsonPath/tests/|widget/nls/ar/|atom/widget/nls/sv/|validate/|atom/widget/nls/pt-pt/|testing/tests/|wire/tests/programmatic/|atom/widget/nls/|form/nls/zh/|html/tests/performance/|charting/widget/|atom/widget/nls/zh-tw/|grid/enhanced/nls/tr/|widget/nls/nl/|widget/nls/es/|form/nls/ca/|sql/|collections/|atom/widget/nls/nb/|atom/widget/nls/fi/|drawing/plugins/drawing/|collections/tests/|atom/io/|io/tests/|form/nls/nl/|secure/tests/|mdnd/|grid/enhanced/nls/pt-pt/|form/nls/ru/|grid/enhanced/nls/|widget/nls/ja/|atom/tests/io/|widget/gauge/|form/nls/fr/|storage/tests/|html/|date/tests/|grid/enhanced/nls/pt/|form/nls/ja/|atom/widget/nls/th/|rpc/|widget/rotator/|gfx/tests/svgweb/svgweb/src/|dtl/utils/|widget/nls/pl/|form/nls/fi/|editor/plugins/nls/ko/|drawing/manager/|charting/themes/|mobile/tests/simpleApp/app/assistants/|editor/plugins/nls/fi/|editor/plugins/nls/th/|wire/|embed/|fx/|grid/enhanced/nls/pl/|form/nls/ar/|atom/widget/nls/hu/|encoding/|form/nls/|atom/widget/|encoding/compression/|editor/plugins/nls/tr/|jsonPath/|json/|widget/nls/pt/|widget/nls/ca/|robot/tests/|storage/|color/|timing/|editor/plugins/nls/fr/|av/|grid/enhanced/nls/cs/|rpc/tests/stores/|widget/nls/tr/|dtl/tests/text/|xml/|grid/tests/performance/|testing/|grid/enhanced/nls/da/|widget/nls/kk/|string/|grid/enhanced/|encoding/tests/digests/|dtl/tests/|uuid/|editor/plugins/nls/ca/|charting/plot2d/|rails/tests/|widget/nls/ko/|editor/plugins/nls/pl/|widget/nls/th/|form/nls/sk/|form/nls/it/|editor/plugins/nls/sv/|gfx/|calc/|widget/nls/fr/|NodeList/|form/nls/sl/|lang/functional/|atom/widget/nls/ar/|form/nls/sv/|grid/enhanced/nls/he/|lang/async/|form/nls/el/|data/demos/widgets/|string/tests/|flash/tests/|date/islamic/|grid/enhanced/nls/de/|charting/|atom/widget/nls/tr/|gfx/tests/performance/|math/tests/|mobile/tests/dialogApp/app/assistants/|analytics/|form/nls/es/|atom/widget/nls/el/|dtl/contrib/|layout/ext-dijit/layout/|data/tests/performance/|image/tests/|widget/nls/da/|html/tests/|atom/widget/nls/cs/|mobile/|editor/plugins/nls/pt-pt/|atom/widget/nls/pt/|editor/plugins/nls/sl/|grid/enhanced/nls/fr/|fx/ext-dojo/|dtl/tag/|highlight/|data/demos/stores/|gfx3d/|editor/plugins/nls/sk/|widget/nls/sl/|data/tests/stores/|editor/plugins/nls/cs/|widget/nls/sk/|grid/enhanced/nls/sv/|sketch/tests/|mobile/tests/complexListApp/app/assistants/|lang/aspect/|drawing/plugins/|form/nls/zh-tw/|widget/|resources/|grid/enhanced/nls/sl/|grid/enhanced/nls/zh/|image/|editor/plugins/nls/zh/|grid/enhanced/nls/sk/|io/proxy/|widget/nls/sv/|encoding/tests/|dtl/tests/dom/|drawing/library/|atom/widget/nls/pl/|help/|html/ext-dojo/|drawing/annotations/|widget/nls/de/|css3/|cometd/|form/nls/tr/|form/nls/pt-pt/|lang/oo/|grid/enhanced/nls/kk/|form/nls/hu/|date/buddhist/|encoding/tests/compression/|geo/charting/|drawing/ui/|editor/plugins/nls/da/|gfx/tests/|atom/widget/nls/de/|form/manager/|grid/enhanced/nls/ca/|data/util/|editor/plugins/nls/ru/|grid/enhanced/nls/ko/|form/nls/th/|analytics/plugins/|form/nls/pl/|editor/plugins/nls/de/|date/tests/islamic/|atom/widget/nls/da/|editor/plugins/nls/zh-tw/|flash/|math/random/|widget/nls/he/|highlight/languages/pygments/|mobile/tests/inputApp/app/assistants/|socket/|grid/enhanced/plugins/|widget/nls/pt-pt/|grid/cells/|editor/plugins/nls/he/|widget/nls/cs/|drawing/|fx/tests/|grid/enhanced/plugins/filter/|form/nls/pt/|editor/plugins/nls/kk/|encoding/crypto/|sketch/|atom/widget/nls/he/|wire/tests/|editor/plugins/nls/|dtl/ext-dojo/|atom/widget/nls/zh/|grid/enhanced/plugins/exporter/|json/tests/|xml/tests/|form/|widget/nls/zh/|math/|data/|form/nls/he/|secure/|grid/enhanced/nls/el/|widget/nls/ro/|atom/widget/nls/kk/|dnd/|highlight/languages/|grid/enhanced/nls/es/|rails/tests/plugd/|grid/enhanced/nls/ru/|widget/tests/|form/nls/de/|layout/tests/resources/|drawing/util/|grid/enhanced/nls/nl/|editor/plugins/nls/hu/|dtl/render/|widget/nls/ru/|robot/|charting/tests/|grid/enhanced/nls/zh-tw/|editor/plugins/nls/ro/|widget/nls/hu/|form/nls/da/|editor/plugins/nls/it/|charting/action2d/|dtl/filter/|charting/themes/PlotKit/|encoding/tests/crypto/|validate/tests/|grid/enhanced/nls/ar/|atom/widget/nls/fr/|xmpp/widget/|date/|layout/|grid/enhanced/nls/it/|atom/widget/nls/ko/|grid/enhanced/nls/ro/|highlight/tests/|mdnd/tests/robot/|mobile/tests/multiSceneApp/app/assistants/|atom/widget/nls/ca/|mdnd/dropMode/|date/tests/hebrew/|form/nls/cs/|mdnd/tests/unitTests/|date/tests/buddhist/|drawing/ui/dom/|editor/plugins/nls/nl/|analytics/profiles/|editor/plugins/nls/ja/|editor/plugins/|uuid/tests/|mobile/app/|editor/plugins/nls/nb/|highlight/widget/|gantt/|wire/demos/|mdnd/adapter/|grid/enhanced/nls/ja/|charting/scaler/|grid/enhanced/nls/nb/|grid/tests/|mobile/tests/simpleListApp/app/assistants/|grid/enhanced/nls/fi/|av/widget/|date/hebrew/" kind="src" path="dojox"/>
+	<classpathentry excluding="plugins/|profiles/" kind="src" path="dojox/analytics"/>
+	<classpathentry kind="src" path="dojox/analytics/plugins"/>
+	<classpathentry kind="src" path="dojox/analytics/profiles"/>
+	<classpathentry kind="src" path="dojox/atom/io"/>
+	<classpathentry kind="src" path="dojox/atom/tests/io"/>
+	<classpathentry excluding="nls/ru/|nls/sk/|nls/es/|nls/ja/|nls/sl/|nls/nl/|nls/it/|nls/ro/|nls/sv/|nls/pt-pt/|nls/|nls/zh-tw/|nls/nb/|nls/fi/|nls/th/|nls/hu/|nls/ar/|nls/tr/|nls/el/|nls/cs/|nls/pt/|nls/pl/|nls/de/|nls/da/|nls/he/|nls/zh/|nls/kk/|nls/fr/|nls/ko/|nls/ca/" kind="src" path="dojox/atom/widget"/>
+	<classpathentry excluding="ru/|sk/|es/|ja/|sl/|nl/|it/|ro/|sv/|pt-pt/|zh-tw/|nb/|fi/|th/|hu/|ar/|tr/|el/|cs/|pt/|pl/|de/|da/|he/|zh/|kk/|fr/|ko/|ca/" kind="src" path="dojox/atom/widget/nls"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/ar"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/ca"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/cs"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/da"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/de"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/el"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/es"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/fi"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/fr"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/he"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/hu"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/it"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/ja"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/kk"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/ko"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/nb"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/nl"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/pl"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/pt"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/pt-pt"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/ro"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/ru"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/sk"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/sl"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/sv"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/th"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/tr"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/zh"/>
+	<classpathentry kind="src" path="dojox/atom/widget/nls/zh-tw"/>
+	<classpathentry excluding="widget/" kind="src" path="dojox/av"/>
+	<classpathentry kind="src" path="dojox/av/widget"/>
+	<classpathentry kind="src" path="dojox/calc"/>
+	<classpathentry excluding="plot3d/|axis2d/|widget/|themes/|plot2d/|tests/|action2d/|themes/PlotKit/|scaler/" kind="src" path="dojox/charting"/>
+	<classpathentry kind="src" path="dojox/charting/action2d"/>
+	<classpathentry kind="src" path="dojox/charting/axis2d"/>
+	<classpathentry kind="src" path="dojox/charting/plot2d"/>
+	<classpathentry kind="src" path="dojox/charting/plot3d"/>
+	<classpathentry kind="src" path="dojox/charting/scaler"/>
+	<classpathentry kind="src" path="dojox/charting/tests"/>
+	<classpathentry excluding="PlotKit/" kind="src" path="dojox/charting/themes"/>
+	<classpathentry kind="src" path="dojox/charting/themes/PlotKit"/>
+	<classpathentry kind="src" path="dojox/charting/widget"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/collections"/>
+	<classpathentry kind="src" path="dojox/collections/tests"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/color"/>
+	<classpathentry kind="src" path="dojox/color/tests"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/cometd"/>
+	<classpathentry kind="src" path="dojox/cometd/tests"/>
+	<classpathentry kind="src" path="dojox/css3"/>
+	<classpathentry excluding="tests/|demos/widgets/|tests/performance/|demos/stores/|tests/stores/|util/" kind="src" path="dojox/data"/>
+	<classpathentry kind="src" path="dojox/data/demos/stores"/>
+	<classpathentry kind="src" path="dojox/data/demos/widgets"/>
+	<classpathentry excluding="performance/|stores/" kind="src" path="dojox/data/tests"/>
+	<classpathentry kind="src" path="dojox/data/tests/performance"/>
+	<classpathentry kind="src" path="dojox/data/tests/stores"/>
+	<classpathentry kind="src" path="dojox/data/util"/>
+	<classpathentry excluding="tests/|islamic/|buddhist/|tests/islamic/|tests/hebrew/|tests/buddhist/|hebrew/" kind="src" path="dojox/date"/>
+	<classpathentry kind="src" path="dojox/date/buddhist"/>
+	<classpathentry kind="src" path="dojox/date/hebrew"/>
+	<classpathentry kind="src" path="dojox/date/islamic"/>
+	<classpathentry excluding="islamic/|hebrew/|buddhist/" kind="src" path="dojox/date/tests"/>
+	<classpathentry kind="src" path="dojox/date/tests/buddhist"/>
+	<classpathentry kind="src" path="dojox/date/tests/hebrew"/>
+	<classpathentry kind="src" path="dojox/date/tests/islamic"/>
+	<classpathentry kind="src" path="dojox/dnd"/>
+	<classpathentry excluding="tools/|plugins/tools/|stencil/|tools/custom/|plugins/drawing/|manager/|plugins/|library/|annotations/|ui/|util/|ui/dom/" kind="src" path="dojox/drawing"/>
+	<classpathentry kind="src" path="dojox/drawing/annotations"/>
+	<classpathentry kind="src" path="dojox/drawing/library"/>
+	<classpathentry kind="src" path="dojox/drawing/manager"/>
+	<classpathentry excluding="tools/|drawing/" kind="src" path="dojox/drawing/plugins"/>
+	<classpathentry kind="src" path="dojox/drawing/plugins/drawing"/>
+	<classpathentry kind="src" path="dojox/drawing/plugins/tools"/>
+	<classpathentry kind="src" path="dojox/drawing/stencil"/>
+	<classpathentry excluding="custom/" kind="src" path="dojox/drawing/tools"/>
+	<classpathentry kind="src" path="dojox/drawing/tools/custom"/>
+	<classpathentry excluding="dom/" kind="src" path="dojox/drawing/ui"/>
+	<classpathentry kind="src" path="dojox/drawing/ui/dom"/>
+	<classpathentry kind="src" path="dojox/drawing/util"/>
+	<classpathentry excluding="utils/|tests/text/|tests/|contrib/|tag/|tests/dom/|ext-dojo/|render/|filter/" kind="src" path="dojox/dtl"/>
+	<classpathentry kind="src" path="dojox/dtl/contrib"/>
+	<classpathentry kind="src" path="dojox/dtl/ext-dojo"/>
+	<classpathentry kind="src" path="dojox/dtl/filter"/>
+	<classpathentry kind="src" path="dojox/dtl/render"/>
+	<classpathentry kind="src" path="dojox/dtl/tag"/>
+	<classpathentry excluding="text/|dom/" kind="src" path="dojox/dtl/tests"/>
+	<classpathentry kind="src" path="dojox/dtl/tests/dom"/>
+	<classpathentry kind="src" path="dojox/dtl/tests/text"/>
+	<classpathentry kind="src" path="dojox/dtl/utils"/>
+	<classpathentry excluding="nls/el/|nls/ar/|nls/es/|nls/pt/|nls/ko/|nls/fi/|nls/th/|nls/tr/|nls/fr/|nls/ca/|nls/pl/|nls/sv/|nls/pt-pt/|nls/sl/|nls/sk/|nls/cs/|nls/zh/|nls/da/|nls/ru/|nls/de/|nls/zh-tw/|nls/he/|nls/kk/|nls/|nls/hu/|nls/ro/|nls/it/|nls/nl/|nls/ja/|nls/nb/" kind="src" path="dojox/editor/plugins"/>
+	<classpathentry excluding="el/|ar/|es/|pt/|ko/|fi/|th/|tr/|fr/|ca/|pl/|sv/|pt-pt/|sl/|sk/|cs/|zh/|da/|ru/|de/|zh-tw/|he/|kk/|hu/|ro/|it/|nl/|ja/|nb/" kind="src" path="dojox/editor/plugins/nls"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/ar"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/ca"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/cs"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/da"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/de"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/el"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/es"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/fi"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/fr"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/he"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/hu"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/it"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/ja"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/kk"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/ko"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/nb"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/nl"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/pl"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/pt"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/pt-pt"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/ro"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/ru"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/sk"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/sl"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/sv"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/th"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/tr"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/zh"/>
+	<classpathentry kind="src" path="dojox/editor/plugins/nls/zh-tw"/>
+	<classpathentry kind="src" path="dojox/editor/tests"/>
+	<classpathentry excluding="IE/" kind="src" path="dojox/embed"/>
+	<classpathentry kind="src" path="dojox/embed/IE"/>
+	<classpathentry excluding="digests/|compression/|tests/digests/|tests/|tests/compression/|crypto/|tests/crypto/" kind="src" path="dojox/encoding"/>
+	<classpathentry kind="src" path="dojox/encoding/compression"/>
+	<classpathentry kind="src" path="dojox/encoding/crypto"/>
+	<classpathentry kind="src" path="dojox/encoding/digests"/>
+	<classpathentry excluding="digests/|compression/|crypto/" kind="src" path="dojox/encoding/tests"/>
+	<classpathentry kind="src" path="dojox/encoding/tests/compression"/>
+	<classpathentry kind="src" path="dojox/encoding/tests/crypto"/>
+	<classpathentry kind="src" path="dojox/encoding/tests/digests"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/flash"/>
+	<classpathentry kind="src" path="dojox/flash/tests"/>
+	<classpathentry excluding="nls/nb/|nls/kk/|nls/ko/|uploader/plugins/|uploader/|nls/ro/|nls/zh/|nls/ca/|nls/nl/|nls/ru/|nls/fr/|nls/ja/|nls/fi/|nls/ar/|nls/|nls/sk/|nls/it/|nls/sl/|nls/sv/|nls/el/|nls/es/|nls/zh-tw/|nls/tr/|nls/pt-pt/|nls/hu/|manager/|nls/th/|nls/pl/|nls/pt/|nls/he/|nls/de/|nls/da/|nls/cs/" kind="src" path="dojox/form"/>
+	<classpathentry kind="src" path="dojox/form/manager"/>
+	<classpathentry excluding="nb/|kk/|ko/|ro/|zh/|ca/|nl/|ru/|fr/|ja/|fi/|ar/|sk/|it/|sl/|sv/|el/|es/|zh-tw/|tr/|pt-pt/|hu/|th/|pl/|pt/|he/|de/|da/|cs/" kind="src" path="dojox/form/nls"/>
+	<classpathentry kind="src" path="dojox/form/nls/ar"/>
+	<classpathentry kind="src" path="dojox/form/nls/ca"/>
+	<classpathentry kind="src" path="dojox/form/nls/cs"/>
+	<classpathentry kind="src" path="dojox/form/nls/da"/>
+	<classpathentry kind="src" path="dojox/form/nls/de"/>
+	<classpathentry kind="src" path="dojox/form/nls/el"/>
+	<classpathentry kind="src" path="dojox/form/nls/es"/>
+	<classpathentry kind="src" path="dojox/form/nls/fi"/>
+	<classpathentry kind="src" path="dojox/form/nls/fr"/>
+	<classpathentry kind="src" path="dojox/form/nls/he"/>
+	<classpathentry kind="src" path="dojox/form/nls/hu"/>
+	<classpathentry kind="src" path="dojox/form/nls/it"/>
+	<classpathentry kind="src" path="dojox/form/nls/ja"/>
+	<classpathentry kind="src" path="dojox/form/nls/kk"/>
+	<classpathentry kind="src" path="dojox/form/nls/ko"/>
+	<classpathentry kind="src" path="dojox/form/nls/nb"/>
+	<classpathentry kind="src" path="dojox/form/nls/nl"/>
+	<classpathentry kind="src" path="dojox/form/nls/pl"/>
+	<classpathentry kind="src" path="dojox/form/nls/pt"/>
+	<classpathentry kind="src" path="dojox/form/nls/pt-pt"/>
+	<classpathentry kind="src" path="dojox/form/nls/ro"/>
+	<classpathentry kind="src" path="dojox/form/nls/ru"/>
+	<classpathentry kind="src" path="dojox/form/nls/sk"/>
+	<classpathentry kind="src" path="dojox/form/nls/sl"/>
+	<classpathentry kind="src" path="dojox/form/nls/sv"/>
+	<classpathentry kind="src" path="dojox/form/nls/th"/>
+	<classpathentry kind="src" path="dojox/form/nls/tr"/>
+	<classpathentry kind="src" path="dojox/form/nls/zh"/>
+	<classpathentry kind="src" path="dojox/form/nls/zh-tw"/>
+	<classpathentry excluding="plugins/" kind="src" path="dojox/form/uploader"/>
+	<classpathentry kind="src" path="dojox/form/uploader/plugins"/>
+	<classpathentry excluding="ext-dojo/|tests/" kind="src" path="dojox/fx"/>
+	<classpathentry kind="src" path="dojox/fx/ext-dojo"/>
+	<classpathentry kind="src" path="dojox/fx/tests"/>
+	<classpathentry kind="src" path="dojox/gantt"/>
+	<classpathentry excluding="widget/" kind="src" path="dojox/geo/charting"/>
+	<classpathentry kind="src" path="dojox/geo/charting/widget"/>
+	<classpathentry excluding="tests/svgweb/svgweb/src/|tests/performance/|tests/" kind="src" path="dojox/gfx"/>
+	<classpathentry excluding="svgweb/svgweb/src/|performance/" kind="src" path="dojox/gfx/tests"/>
+	<classpathentry kind="src" path="dojox/gfx/tests/performance"/>
+	<classpathentry kind="src" path="dojox/gfx/tests/svgweb/svgweb/src"/>
+	<classpathentry kind="src" path="dojox/gfx3d"/>
+	<classpathentry excluding="tests/enhanced/support/|tests/robot/|enhanced/nls/hu/|tests/support/|enhanced/nls/th/|enhanced/nls/tr/|enhanced/nls/pt-pt/|enhanced/nls/|enhanced/nls/pt/|enhanced/nls/pl/|enhanced/nls/cs/|tests/performance/|enhanced/nls/da/|enhanced/|enhanced/nls/he/|enhanced/nls/de/|enhanced/nls/fr/|enhanced/nls/sv/|enhanced/nls/sl/|enhanced/nls/zh/|enhanced/nls/sk/|enhanced/nls/kk/|enhanced/nls/ca/|enhanced/nls/ko/|enhanced/plugins/|cells/|enhanced/plugins/filter/|enhanced/plugins/exporter/|enhanced/nls/el/|enhanced/nls/es/|enhanced/nls/ru/|enhanced/nls/nl/|enhanced/nls/zh-tw/|enhanced/nls/ar/|enhanced/nls/it/|enhanced/nls/ro/|enhanced/nls/ja/|enhanced/nls/nb/|tests/|enhanced/nls/fi/" kind="src" path="dojox/grid"/>
+	<classpathentry kind="src" path="dojox/grid/cells"/>
+	<classpathentry excluding="nls/hu/|nls/th/|nls/tr/|nls/pt-pt/|nls/|nls/pt/|nls/pl/|nls/cs/|nls/da/|nls/he/|nls/de/|nls/fr/|nls/sv/|nls/sl/|nls/zh/|nls/sk/|nls/kk/|nls/ca/|nls/ko/|plugins/|plugins/filter/|plugins/exporter/|nls/el/|nls/es/|nls/ru/|nls/nl/|nls/zh-tw/|nls/ar/|nls/it/|nls/ro/|nls/ja/|nls/nb/|nls/fi/" kind="src" path="dojox/grid/enhanced"/>
+	<classpathentry excluding="hu/|th/|tr/|pt-pt/|pt/|pl/|cs/|da/|he/|de/|fr/|sv/|sl/|zh/|sk/|kk/|ca/|ko/|el/|es/|ru/|nl/|zh-tw/|ar/|it/|ro/|ja/|nb/|fi/" kind="src" path="dojox/grid/enhanced/nls"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/ar"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/ca"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/cs"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/da"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/de"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/el"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/es"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/fi"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/fr"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/he"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/hu"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/it"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/ja"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/kk"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/ko"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/nb"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/nl"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/pl"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/pt"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/pt-pt"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/ro"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/ru"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/sk"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/sl"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/sv"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/th"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/tr"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/zh"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/nls/zh-tw"/>
+	<classpathentry excluding="filter/|exporter/" kind="src" path="dojox/grid/enhanced/plugins"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/plugins/exporter"/>
+	<classpathentry kind="src" path="dojox/grid/enhanced/plugins/filter"/>
+	<classpathentry excluding="enhanced/support/|robot/|support/|performance/" kind="src" path="dojox/grid/tests"/>
+	<classpathentry kind="src" path="dojox/grid/tests/enhanced/support"/>
+	<classpathentry kind="src" path="dojox/grid/tests/performance"/>
+	<classpathentry kind="src" path="dojox/grid/tests/robot"/>
+	<classpathentry kind="src" path="dojox/grid/tests/support"/>
+	<classpathentry kind="src" path="dojox/help"/>
+	<classpathentry excluding="languages/pygments/|languages/|tests/|widget/" kind="src" path="dojox/highlight"/>
+	<classpathentry excluding="pygments/" kind="src" path="dojox/highlight/languages"/>
+	<classpathentry kind="src" path="dojox/highlight/languages/pygments"/>
+	<classpathentry kind="src" path="dojox/highlight/tests"/>
+	<classpathentry kind="src" path="dojox/highlight/widget"/>
+	<classpathentry excluding="tests/performance/|tests/|ext-dojo/" kind="src" path="dojox/html"/>
+	<classpathentry kind="src" path="dojox/html/ext-dojo"/>
+	<classpathentry excluding="performance/" kind="src" path="dojox/html/tests"/>
+	<classpathentry kind="src" path="dojox/html/tests/performance"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/image"/>
+	<classpathentry kind="src" path="dojox/image/tests"/>
+	<classpathentry excluding="tests/|proxy/" kind="src" path="dojox/io"/>
+	<classpathentry kind="src" path="dojox/io/proxy"/>
+	<classpathentry kind="src" path="dojox/io/tests"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/json"/>
+	<classpathentry kind="src" path="dojox/json/tests"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/jsonPath"/>
+	<classpathentry kind="src" path="dojox/jsonPath/tests"/>
+	<classpathentry excluding="tests/|functional/|async/|aspect/|oo/" kind="src" path="dojox/lang"/>
+	<classpathentry kind="src" path="dojox/lang/aspect"/>
+	<classpathentry kind="src" path="dojox/lang/async"/>
+	<classpathentry kind="src" path="dojox/lang/functional"/>
+	<classpathentry kind="src" path="dojox/lang/oo"/>
+	<classpathentry kind="src" path="dojox/lang/tests"/>
+	<classpathentry excluding="dnd/|ext-dijit/layout/|tests/resources/" kind="src" path="dojox/layout"/>
+	<classpathentry kind="src" path="dojox/layout/dnd"/>
+	<classpathentry kind="src" path="dojox/layout/ext-dijit/layout"/>
+	<classpathentry kind="src" path="dojox/layout/tests/resources"/>
+	<classpathentry excluding="tests/|random/" kind="src" path="dojox/math"/>
+	<classpathentry kind="src" path="dojox/math/random"/>
+	<classpathentry kind="src" path="dojox/math/tests"/>
+	<classpathentry excluding="tests/unitTests/dropIndicator/|tests/unitTests/areaManager/|tests/unitTests/dropMode/|tests/|tests/robot/|dropMode/|tests/unitTests/|adapter/" kind="src" path="dojox/mdnd"/>
+	<classpathentry kind="src" path="dojox/mdnd/adapter"/>
+	<classpathentry kind="src" path="dojox/mdnd/dropMode"/>
+	<classpathentry excluding="unitTests/dropIndicator/|unitTests/areaManager/|unitTests/dropMode/|robot/|unitTests/" kind="src" path="dojox/mdnd/tests"/>
+	<classpathentry kind="src" path="dojox/mdnd/tests/robot"/>
+	<classpathentry excluding="dropIndicator/|areaManager/|dropMode/" kind="src" path="dojox/mdnd/tests/unitTests"/>
+	<classpathentry kind="src" path="dojox/mdnd/tests/unitTests/areaManager"/>
+	<classpathentry kind="src" path="dojox/mdnd/tests/unitTests/dropIndicator"/>
+	<classpathentry kind="src" path="dojox/mdnd/tests/unitTests/dropMode"/>
+	<classpathentry excluding="tests/imageControlsApp/app/assistants/|tests/simpleApp/app/assistants/|tests/dialogApp/app/assistants/|tests/complexListApp/app/assistants/|tests/inputApp/app/assistants/|tests/multiSceneApp/app/assistants/|app/|tests/simpleListApp/app/assistants/" kind="src" path="dojox/mobile"/>
+	<classpathentry kind="src" path="dojox/mobile/app"/>
+	<classpathentry kind="src" path="dojox/mobile/tests/complexListApp/app/assistants"/>
+	<classpathentry kind="src" path="dojox/mobile/tests/dialogApp/app/assistants"/>
+	<classpathentry kind="src" path="dojox/mobile/tests/imageControlsApp/app/assistants"/>
+	<classpathentry kind="src" path="dojox/mobile/tests/inputApp/app/assistants"/>
+	<classpathentry kind="src" path="dojox/mobile/tests/multiSceneApp/app/assistants"/>
+	<classpathentry kind="src" path="dojox/mobile/tests/simpleApp/app/assistants"/>
+	<classpathentry kind="src" path="dojox/mobile/tests/simpleListApp/app/assistants"/>
+	<classpathentry kind="src" path="dojox/NodeList"/>
+	<classpathentry excluding="plugd/" kind="src" path="dojox/rails/tests"/>
+	<classpathentry kind="src" path="dojox/rails/tests/plugd"/>
+	<classpathentry kind="src" path="dojox/resources"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/robot"/>
+	<classpathentry kind="src" path="dojox/robot/tests"/>
+	<classpathentry excluding="tests/|tests/stores/" kind="src" path="dojox/rpc"/>
+	<classpathentry excluding="stores/" kind="src" path="dojox/rpc/tests"/>
+	<classpathentry kind="src" path="dojox/rpc/tests/stores"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/secure"/>
+	<classpathentry kind="src" path="dojox/secure/tests"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/sketch"/>
+	<classpathentry kind="src" path="dojox/sketch/tests"/>
+	<classpathentry kind="src" path="dojox/socket"/>
+	<classpathentry kind="src" path="dojox/sql"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/storage"/>
+	<classpathentry kind="src" path="dojox/storage/tests"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/string"/>
+	<classpathentry kind="src" path="dojox/string/tests"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/testing"/>
+	<classpathentry kind="src" path="dojox/testing/tests"/>
+	<classpathentry kind="src" path="dojox/timing"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/uuid"/>
+	<classpathentry kind="src" path="dojox/uuid/tests"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/validate"/>
+	<classpathentry kind="src" path="dojox/validate/tests"/>
+	<classpathentry excluding="nls/zh-tw/|nls/|nls/fi/|nls/nb/|nls/it/|nls/el/|nls/ar/|nls/nl/|nls/es/|nls/ja/|gauge/|rotator/|nls/pl/|nls/pt/|nls/ca/|nls/tr/|nls/kk/|nls/ko/|nls/th/|nls/fr/|nls/da/|nls/sl/|nls/sk/|nls/sv/|nls/de/|nls/he/|nls/pt-pt/|nls/cs/|nls/zh/|nls/ro/|tests/|nls/ru/|nls/hu/" kind="src" path="dojox/widget"/>
+	<classpathentry kind="src" path="dojox/widget/gauge"/>
+	<classpathentry excluding="zh-tw/|fi/|nb/|it/|el/|ar/|nl/|es/|ja/|pl/|pt/|ca/|tr/|kk/|ko/|th/|fr/|da/|sl/|sk/|sv/|de/|he/|pt-pt/|cs/|zh/|ro/|ru/|hu/" kind="src" path="dojox/widget/nls"/>
+	<classpathentry kind="src" path="dojox/widget/nls/ar"/>
+	<classpathentry kind="src" path="dojox/widget/nls/ca"/>
+	<classpathentry kind="src" path="dojox/widget/nls/cs"/>
+	<classpathentry kind="src" path="dojox/widget/nls/da"/>
+	<classpathentry kind="src" path="dojox/widget/nls/de"/>
+	<classpathentry kind="src" path="dojox/widget/nls/el"/>
+	<classpathentry kind="src" path="dojox/widget/nls/es"/>
+	<classpathentry kind="src" path="dojox/widget/nls/fi"/>
+	<classpathentry kind="src" path="dojox/widget/nls/fr"/>
+	<classpathentry kind="src" path="dojox/widget/nls/he"/>
+	<classpathentry kind="src" path="dojox/widget/nls/hu"/>
+	<classpathentry kind="src" path="dojox/widget/nls/it"/>
+	<classpathentry kind="src" path="dojox/widget/nls/ja"/>
+	<classpathentry kind="src" path="dojox/widget/nls/kk"/>
+	<classpathentry kind="src" path="dojox/widget/nls/ko"/>
+	<classpathentry kind="src" path="dojox/widget/nls/nb"/>
+	<classpathentry kind="src" path="dojox/widget/nls/nl"/>
+	<classpathentry kind="src" path="dojox/widget/nls/pl"/>
+	<classpathentry kind="src" path="dojox/widget/nls/pt"/>
+	<classpathentry kind="src" path="dojox/widget/nls/pt-pt"/>
+	<classpathentry kind="src" path="dojox/widget/nls/ro"/>
+	<classpathentry kind="src" path="dojox/widget/nls/ru"/>
+	<classpathentry kind="src" path="dojox/widget/nls/sk"/>
+	<classpathentry kind="src" path="dojox/widget/nls/sl"/>
+	<classpathentry kind="src" path="dojox/widget/nls/sv"/>
+	<classpathentry kind="src" path="dojox/widget/nls/th"/>
+	<classpathentry kind="src" path="dojox/widget/nls/tr"/>
+	<classpathentry kind="src" path="dojox/widget/nls/zh"/>
+	<classpathentry kind="src" path="dojox/widget/nls/zh-tw"/>
+	<classpathentry kind="src" path="dojox/widget/rotator"/>
+	<classpathentry kind="src" path="dojox/widget/tests"/>
+	<classpathentry excluding="ml/|tests/programmatic/|tests/|demos/" kind="src" path="dojox/wire"/>
+	<classpathentry kind="src" path="dojox/wire/demos"/>
+	<classpathentry kind="src" path="dojox/wire/ml"/>
+	<classpathentry excluding="programmatic/" kind="src" path="dojox/wire/tests"/>
+	<classpathentry kind="src" path="dojox/wire/tests/programmatic"/>
+	<classpathentry excluding="tests/" kind="src" path="dojox/xml"/>
+	<classpathentry kind="src" path="dojox/xml/tests"/>
+	<classpathentry excluding="widget/" kind="src" path="dojox/xmpp"/>
+	<classpathentry kind="src" path="dojox/xmpp/widget"/>
+	<classpathentry excluding="cldr/|tests/profiles/|webbuild/server/js/|tests/foo/page/|profiles/|tests/css/|tests/|jslib/|webbuild/" kind="src" path="util/buildscripts"/>
+	<classpathentry kind="src" path="util/buildscripts/cldr"/>
+	<classpathentry kind="src" path="util/buildscripts/jslib"/>
+	<classpathentry kind="src" path="util/buildscripts/profiles"/>
+	<classpathentry excluding="profiles/|foo/page/|css/" kind="src" path="util/buildscripts/tests"/>
+	<classpathentry kind="src" path="util/buildscripts/tests/css"/>
+	<classpathentry kind="src" path="util/buildscripts/tests/foo/page"/>
+	<classpathentry kind="src" path="util/buildscripts/tests/profiles"/>
+	<classpathentry excluding="server/js/" kind="src" path="util/buildscripts/webbuild"/>
+	<classpathentry kind="src" path="util/buildscripts/webbuild/server/js"/>
+	<classpathentry kind="src" path="util/checkstyle"/>
+	<classpathentry kind="src" path="util/docscripts/cheat"/>
+	<classpathentry kind="src" path="util/doh"/>
+	<classpathentry kind="src" path="util/jsdoc"/>
+	<classpathentry kind="src" path="util/shrinksafe/tests"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

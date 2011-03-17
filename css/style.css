@@ -1,0 +1,15 @@
+body{
+  min-width: 500px;
+  min-height: 400px;
+}
+
+h1,h2,h3 {
+  color: #769dc0;
+}
+
+/*
+ #classSelectNode 
+*/
+.dijitComboBox{
+	  width: 400px;
+}

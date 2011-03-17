@@ -1,0 +1,19 @@
+{
+  "name": "Dojotoolkit helper",
+  "version": "0.1",
+  "description": "Dojotoolkit helper",
+  "background_page": "background.html",
+  "icons":{
+    "24": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "name": "Dojotoolkit helper",
+    "popup": "popup.html"
+  },
+  "permissions": [
+      "tabs"
+  ]
+}

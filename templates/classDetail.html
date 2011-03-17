@@ -1,0 +1,51 @@
+<div>
+  {% if not item %}
+    <p>nothing yet</p>
+  {% else %}
+    <h2>{{item.location}}</h2>
+    <!--  -->
+    <h3>Type</h3>
+    <p>{{item.type}}</p>
+    <!--  Resources -->
+    {% if item.resources %}
+      <h3>Resources</h3>
+      <ul>
+      {% for resource in item.resources %}
+      <li>{{resource}}</li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+    <!-- Provides -->
+      {% if item.provides %}
+        <h3>Provides</h3>
+        <ul>
+        {% for provide in item.provides %}
+        <li>{{provide}}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    <!-- Methods -->
+      {% if item.methods %}
+        <h3>Methods</h3>
+        <ul>
+        {% for method in item.methods %}
+        <li>{{method.name}}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    <!-- Properties -->
+      {% if item.properties %}
+        <h3>Properties</h3>
+        <ul>
+        {% for property in item.properties %}
+        <li>Name: {{property.name}}</li>
+        <li>Scope: {{property.scope}}</li>
+        <li>Type: {{property.type}}</li>
+        <li>Private: {{property.private}}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+      
+      
+  {% endif %}
+</div>
