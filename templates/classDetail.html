@@ -6,6 +6,16 @@
     <!--  -->
     <h3>Type</h3>
     <p>{{item.type}}</p>
+    <h3>Class-like</h3>
+    <p>{{item.classlike}}</p>
+    <h3>Superclass</h3>
+    <p>{{item.superclass}}</p>
+    <h3>Summary</h3>
+    <p>{{item.summary}}</p>
+    <h3>Description</h3>
+    <p>{{item.description}}</p>
+
+    
     <!--  Resources -->
     {% if item.resources %}
       <h3>Resources</h3>
@@ -45,7 +55,24 @@
         {% endfor %}
         </ul>
       {% endif %}
-      
+    <!-- Examples -->
+      {% if item.examples %}
+        <h3>Examples</h3>
+        <ul>
+        {% for example in item.examples %}
+        <li>{{example}}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    <!-- Mixins -->
+      {% if item.mixins %}
+        <h3>Mixins</h3>
+        <ul>
+        {% for example in item.mixin %}
+        <li>{{mixin}}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
       
   {% endif %}
 </div>
