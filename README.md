@@ -1,9 +1,11 @@
 Dojotoolkit helper
-====================================================
+==================
 
-chrome-extension://kaoeffijojonohlheakomkiobfcojnen/popup.html
+A Chrome extension to allow searching the Dojotoolkit documentation off-line
 
-http://docs.dojocampus.org/dojox/data/XmlStore
 
-http://dojotoolkit.org/api/
-http://dojotoolkit.org/api/rpc/
+Related links
+-------------
+
+<http://dojotoolkit.org>
+<http://dojotoolkit.org/api/>
