@@ -1,2 +1,137 @@
 queryExpr to *${0}*
 chrome-extension://pjpkfkgicpjibojbdenjcegcobffihdh/popup.html
+
+<link rel="stylesheet" type="text/css" href="/js/dojo/dojo/resources/dojo.css"> 
+<link rel="stylesheet" type="text/css" href="/js/dojo/dijit/themes/claro/claro.css">
+<link rel="stylesheet" type="text/css" href="/js/dojo/dojox/grid/resources/claroGrid.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+<script src="/js/dojo/dojo/dojo.js" type="text/javascript" djConfig="parseOnLoad: true"></script>
+<script src="/js/code.js"></script>
+
+<body class="claro">
+  <div dojoType="dijit.layout.ContentPane" id="titleBar"><h1>Search the Dojotoolkit documentation</h1></div>
+  <div dojoType="dijit.layout.ContentPane" id="searchBar">
+      <select dojoType="dijit.form.Select" id="dojoVersion" name="dojoVersion">
+          <option value="1.6" selected>1.6</option>
+          <option value="1.5">1.5</option>
+          <option value="1.4">1.4</option>
+      </select>
+      <input id="classSelectNode">
+  </div>
+  <div dojoType="dijit.layout.ContentPane" id="details">
+    <div id="detailsNode"></div>
+  </div>  
+</body>
+
+ dojo.require("dojo.data.ItemFileWriteStore");
+
+dojo.require("dijit.layout.ContentPane");
+dojo.require("dijit.form.FilteringSelect");
+dojo.require("dijit.form.Select");
+
+dojo.require("dojox.dtl._DomTemplated");
+
+dojo.registerModulePath("ChromeDojoHelper", "/js/ChromeDojoHelper");
+dojo.require("ChromeDojoHelper.ClassDetail");
+dojo.require("ChromeDojoHelper.DocumentationViewer");
+
+function extUrl(uri) {
+  return chrome.extension.getURL(uri);
+}
+
+
+var datastore, detailTemplate;
+
+function _onValueChange(newValue) {
+  console.debug("CHANGE:", newValue);
+  datastore.fetchItemByIdentity({identity: newValue, onItem: _onNewItem});
+};
+
+function _onNewItem(item) {
+  console.debug("CHANGE ITEM:", item);
+  detailTemplate.item = item;
+  detailTemplate.hasItem = true;
+  detailTemplate.render();
+}
+bgPage = chrome.extension.getBackgroundPage();
+console.debug(bgPage.HELLO_WORLD);
+function init() {
+  
+  
+//  bgPage = chrome.extension.getBackgroundPage();
+//  console.debug(bgPage.HELLO_WORLD);
+  
+  var initialData = {
+    'identifier': 'location',
+    'idAttribute': 'location',
+    'label': 'location',
+    'items': []
+  };
+  datastore = new dojo.data.ItemFileWriteStore({data: initialData});
+  
+  dojo.xhrGet({
+    url: extUrl("/api/dojo-1.6.0-api.js"),
+    handleAs: "json",
+    load: function(data){
+      console.debug("back");
+      var item;
+      for (var idx in data) {
+        item = data[idx];
+        datastore.newItem({
+          "id"        : idx,
+          "location"  : item.location,
+          "resources" : item.resources,
+          "methods"   : item.methods,
+          "provides"  : item.provides,
+          "type"      : item.type,
+          "classlike" : item.classlike,
+          "superclass": item.superclass,
+          "summary"   : item.summary,
+          "description": item.description,
+          "examples"  : item.examples,
+          "mixins"    : item.mixins,
+          "properties": item.properties
+        });
+      }
+      
+      detailTemplate = new ChromeDojoHelper.ClassDetail({}, "detailsNode");
+      
+      var filteringSelect = new dijit.form.FilteringSelect({
+        //id: "classSelect",
+        //name: "class",
+        //value: "location",
+        store: datastore,
+        searchAttr: "location",
+        pageSize: 10,
+        queryExpr: "*${0}*",
+        autoComplete: false,
+        onChange: _onValueChange
+      }, "classSelectNode");
+      
+      
+      //console.debug(detailTemplate.);
+      detailTemplate.render();
+
+      console.debug("-- done --");
+      //debugDS(datastore);
+    }
+  });
+  
+}
+
+function debugDS(datastore) {
+  var kwArgs = {
+    //query: {"processID":"*"},
+    query: null,
+    onComplete:function(items){
+      console.debug(items);
+      
+    }
+  };
+  datastore.fetch(kwArgs);
+}
+
+dojo.ready(init);
+
+

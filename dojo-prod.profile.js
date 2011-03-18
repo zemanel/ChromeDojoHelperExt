@@ -8,13 +8,15 @@ dependencies = {
         "dijit.layout.ContentPane",
         "dijit.form.FilteringSelect",
         "dijit.form.Select",
-        "dojox.dtl._DomTemplated"
+        "dojox.dtl._DomTemplated",
+        "ChromeDojoHelper.ClassDetail"
       ]
     }
   ],
 
   prefixes: [
     [ "dijit", "../dijit" ],
-    [ "dojox", "../dojox" ]
+    [ "dojox", "../dojox" ],
+    ["ChromeDojoHelper", "/js/ChromeDojoHelper"]
   ]
 }
