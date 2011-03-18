@@ -31,6 +31,11 @@ function _onNewItem(item) {
 }
 
 function init() {
+  
+  
+  bgPage = chrome.extension.getBackgroundPage();
+  console.debug(bgPage.HELLO_WORLD);
+  
   var initialData = {
     'identifier': 'location',
     'idAttribute': 'location',
