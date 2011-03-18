@@ -3,6 +3,17 @@ Dojotoolkit helper
 
 A Chrome extension to allow searching the Dojotoolkit documentation off-line
 
+Building dojo
+------------------
+
+to build a dojo profile use:
+
+    #ant dojo-build -Denv.profile=dev
+    
+or
+
+    #ant dojo-build -Denv.profile=prod
+
 Development status
 ------------------
 

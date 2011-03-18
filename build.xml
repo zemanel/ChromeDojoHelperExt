@@ -1,0 +1,22 @@
+<project name="DojoHelperChrome" default="dojo-build" basedir=".">
+  <description>Ant Build file</description>
+	
+	<!-- external properties for this build -->
+	<property file="build.properties"/>
+	<property file="build-${env.profile}.properties"/>
+	
+	<!-- set global properties for this build -->
+  <property name="lib" location="${basedir}/lib"/>
+	<property name="dojo-profile" location="${basedir}/dojo-${env.profile}.profile.js"/>
+  <property name="dojo-src-dir" location="${lib}/dojo-release-${dojo.version}-src"/>
+	<property name="dojo-dist" location="${basedir}/extension/js"/>
+	<property name="dojo-build-options" value="releaseDir=${dojo-dist} ${dojo.build.options}"/>
+	
+  <target name="dojo-build" description="compile the dojo profile" >
+    <!-- compile the dojo profile -->
+    <exec dir="${dojo-src-dir}/util/buildscripts" executable="${dojo-src-dir}/util/buildscripts/build.sh" >
+      <arg line="profileFile=${dojo-profile} ${dojo-build-options}"/>
+  	</exec>
+  </target>
+	
+</project>
