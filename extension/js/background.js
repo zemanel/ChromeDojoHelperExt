@@ -45,7 +45,7 @@ for (var namespace in data) {
     datastore.newItem({
       id          : namespace+"#"+dojoVersion,
       dojoVersion : dojoVersion,
-      location    : item.location+" ("+dojoVersion+")",
+      location    : item.location, //+" ("+dojoVersion+")",
       resources   : item.resources,
       methods     : item.methods,
       provides    : item.provides,

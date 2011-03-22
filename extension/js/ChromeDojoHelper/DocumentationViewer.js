@@ -29,6 +29,7 @@ dojo.declare("ChromeDojoHelper.DocumentationViewer", [dijit._Widget, dijit._Temp
   widgetsInTemplate: true,
   _versionSelect: null,
   _itemSelectNode: null,
+  _classDetail: null,
   //  datastore for the api
   datastore:null,
 
@@ -55,28 +56,38 @@ dojo.declare("ChromeDojoHelper.DocumentationViewer", [dijit._Widget, dijit._Temp
           dojoVersion: currentVersion
         }
       }, this._itemSelectNode);
-    //dojo.connect(this, _itemSelectNode, "onChange", _onItemSelectValueChange);
+    // connect UI events
+    dojo.connect(this._itemSelect, "onChange", this, "_onItemSelectValueChange");
     dojo.connect(this._versionSelect, "onChange", this, "_onVersionSelectValueChange");
   },
-  
-  _onItemSelectValueChange: function(newValue) {
-    console.debug("CHANGE:", newValue);
-    datastore.fetchItemByIdentity({identity: newValue, onItem: _onNewItem});
-  },
 
+  // summary:
+  //  callback for when the selected dojo version changes
   _onVersionSelectValueChange: function(newValue) {
     console.debug("CHANGE:", newValue);
     console.debug("changed dojo version to:",  newValue);
     this._itemSelect.query = {
         dojoVersion:  newValue
     };
+    // Reset UI
+    this._classDetail.item = null;
+    this._classDetail.render();
+    this._itemSelect.set("value", null);
   },
   
+  // summary:
+  //  callback for when a namespace item is selected
+  _onItemSelectValueChange: function(newValue) {
+    console.debug("CHANGE:", newValue);
+    this.datastore.fetchItemByIdentity({identity: newValue, onItem: dojo.hitch(this,"_onNewItem")});
+  },
+  
+  // summary:
+  //  callback for when a namespace item is retrieved from the datastore  
   _onNewItem: function (item) {
     console.debug("CHANGE ITEM:", item);
-    detailTemplate.item = item;
-    detailTemplate.hasItem = true;
-    detailTemplate.render();
+    this._classDetail.item = item;
+    this._classDetail.render();
   },
   
   // summary:
