@@ -1,18 +1,13 @@
-dojo.require("dojo.data.ItemFileWriteStore");
-
-dojo.require("dijit.layout.ContentPane");
-dojo.require("dijit.form.FilteringSelect");
-dojo.require("dijit.form.Select");
-
 dojo.registerModulePath("ChromeDojoHelper", "/js/ChromeDojoHelper");
-
-dojo.require("ChromeDojoHelper.ClassDetail");
 dojo.require("ChromeDojoHelper.DocumentationViewer");
 
 
 function init() {
+  //alert("init");
   bgPage = chrome.extension.getBackgroundPage();
-  console.debug(bgPage.datastores);
+  console.debug(bgPage.datastore);
+  console.debug(documentationViewer);
+  documentationViewer.setStore(bgPage.datastore);
 }
 
 dojo.ready(init);

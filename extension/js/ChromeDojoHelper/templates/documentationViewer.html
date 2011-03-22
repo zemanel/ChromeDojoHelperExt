@@ -1,14 +1,15 @@
 <div>
-  <div dojoType="dijit.layout.ContentPane" id="titleBar"><h1>Search the Dojotoolkit documentation</h1></div>
-  <div dojoType="dijit.layout.ContentPane" id="searchBar">
-      <select dojoType="dijit.form.Select" dojoAttachPoint="versionSelect">
+  <div id="titleBar"><h1>Search the Dojotoolkit documentation</h1></div>
+  <div id="searchBar">
+      <select dojoType="dijit.form.Select" dojoAttachPoint="_versionSelect">
           <option value="1.6" selected>1.6</option>
           <option value="1.5">1.5</option>
-          <option value="1.4">1.4</option>
+          <option value="1.4.3">1.4.3</option>
       </select>
-      <input dojoType="dijit.form.FilteringSelect" dojoAttachPoint="itemSelect" />
+      <input dojoAttachPoint="_itemSelectNode" />
   </div>
-  <div dojoType="dijit.layout.ContentPane">
+  <div>
+    <!-- dojoType="dijit.form.FilteringSelect"  -->
     <div dojoType="ChromeDojoHelper.ClassDetail" dojoAttachPoint="classDetail"></div>
   </div>
 </div>

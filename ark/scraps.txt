@@ -134,4 +134,8 @@ function debugDS(datastore) {
 
 dojo.ready(init);
 
+  <div dojoType="ChromeDojoHelper.DocumentationViewer"></div>  
 
+  
+  
+  http://archive.dojotoolkit.org/nightly/checkout/dojox/storage/demos/helloworld.html
