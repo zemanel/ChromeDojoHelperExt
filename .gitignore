@@ -1,2 +1,4 @@
 .DS_Store
 extension/js/dojo
+.project
+.settings

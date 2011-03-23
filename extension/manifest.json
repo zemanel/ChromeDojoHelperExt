@@ -1,6 +1,6 @@
 {
   "name": "Dojotoolkit helper",
-  "version": "0.1",
+  "version": "0.5",
   "description": "Dojotoolkit helper",
   "background_page": "background.html",
   "icons":{

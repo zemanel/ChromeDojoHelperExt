@@ -1,10 +1,15 @@
 body{
   min-width: 500px;
   min-height: 400px;
+  color: #1b5891;
 }
 
 h1,h2,h3 {
-  color: #769dc0;
+  color: #1b5891;
+}
+
+div#titleBar h1 {
+  margin: 5px 10px 0 0;
 }
 
 /*

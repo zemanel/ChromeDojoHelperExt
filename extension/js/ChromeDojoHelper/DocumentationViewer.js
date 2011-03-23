@@ -72,7 +72,8 @@ dojo.declare("ChromeDojoHelper.DocumentationViewer", [dijit._Widget, dijit._Temp
     // Reset UI
     this._classDetail.item = null;
     this._classDetail.render();
-    this._itemSelect.set("value", null);
+    //this._itemSelect.set("value", null);
+    this._itemSelect.reset();
   },
   
   // summary:
